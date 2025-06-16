@@ -119,7 +119,7 @@ group by 1,2
 order by 1,3 desc;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 select customer_id,sum(total_sale) as totas_sale from retail_sales
 group by 1
